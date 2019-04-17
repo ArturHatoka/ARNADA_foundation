@@ -6,7 +6,7 @@ html{
 body{
     position: relative;
     margin: 0;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu';
     width: 100%;
     box-sizing: border-box;
     flex-direction: column;
@@ -28,6 +28,13 @@ header {
 h2{
     font-size: 3.6rem;
     margin-top: 0;
+}
+input:focus {
+    box-shadow: 0 0 5px 0 rgba(240, 243, 253, 0.9);
+    transition: .3s;
+}
+input{
+    transition: .3s;    
 }
 .main_header{
     background: url("../img/bg-main.jpg") center no-repeat;
@@ -301,6 +308,7 @@ nav{
     font-weight: 600;
     color: #fff;
     text-shadow: 1px 1px 5px black;
+    text-align: center;
 }
 .more_btn{
     font-size: 1.6rem;
@@ -500,7 +508,7 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
 }
 .about_box{
     position: relative;
@@ -511,6 +519,7 @@ nav{
     width: 20%;
     background-color: #f2f2f2;
     border: 2px solid #5ec57e;;
+    height: auto;
 }
 .work_about span{
     font-size: 2rem;
@@ -606,7 +615,8 @@ span.lupa{
      transition: .5s;
 }
 .r_two{
-    background: url("../img/bg-want.jpg");
+    background: url("../img/bg-want.jpg") center no-repeat;
+    background-size: cover;;
 }
 .foundation_works .foundation_box{
     width: 30%;
@@ -623,6 +633,7 @@ span.lupa{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: start;
 }
 .why_box{
     position: relative;
@@ -630,6 +641,7 @@ span.lupa{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 13%;
 }
 .why_img{
     position: relative;
@@ -644,6 +656,7 @@ span.lupa{
     font-size: 1.8rem;
     margin-top: 2rem;
     font-weight: 300;
+    text-align: center;
 }
 .why_box span b{
     font-weight: 600;
@@ -689,7 +702,8 @@ span.lupa{
     font-size: 4rem;
 }
 .r_three{
-    background: url("../img/bg-form.jpg");
+    background: url("../img/bg-form.jpg") center no-repeat;
+    background-size: cover;
 }
 .stage-1:nth-of-type(1):after,.stage-1:nth-of-type(2):after,.stage-2:nth-of-type(1):after{
     content: url("../img/arrow.png");
@@ -729,7 +743,7 @@ span.lupa{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 .people_box{
     position: relative;
@@ -963,6 +977,7 @@ span.lupa{
     align-items: center;
     justify-content: center;
     border: 3px solid #5ec57e;
+    padding: 0 3rem;
 }
 .right_box_img img{
     width: 100%;

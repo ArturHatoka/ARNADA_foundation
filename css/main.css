@@ -357,6 +357,7 @@ nav{
 }
 .r_one{
     background: url("../img/bg-how.jpg") center no-repeat;
+    background-size: cover;
 }
 .request{
     margin: 2rem auto;

@@ -19,13 +19,13 @@
                 <div class="logo_head">
                     <img src="img/logo.png" alt="">
                 </div>
-                <a href="#" class="calc_href"><div class="calc_head">
+                <a href="#callback" class="calc_href"><div class="calc_head">
                     <span>Рассчитать стоимость</span>
                 </div></a>
                 <div class="tel_head">
                     <span class="top_tel">+375 29 383-16-53</span>
                     <span class="top_tel">+375 33 603-74-53</span>
-                    <span class="top_callback"><a href="#">Заказать звонок</a></span>
+                    <span class="top_callback"><a href="#callback">Заказать звонок</a></span>
                 </div>
             </div>
             <div class="nav_head">
@@ -75,7 +75,7 @@
                     <li>Смету</li>
                 </ul>
                 <form action="src/mail/send-mail.php">
-                    <input type="tel" placeholder="Ваш телефон" id="tel-1" name="tel" class="form_inpt">
+                    <input  required="" type="tel" placeholder="Ваш телефон" id="tel-1" name="tel" class="form_inpt">
                     <input type="submit" value="Заказать осмотр" class="btn">
                 </form>
             </div>
@@ -112,64 +112,64 @@
                     <img src="img/kind_1.jpg" alt="">
                     <span>Ленточный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_1" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_2.jpg" alt="">
                     <span>Свайный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_2" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_3.jpg" alt="">
                     <span>Столбчатый</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_3" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_4.jpg" alt="">
                     <span>Сборный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_4" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_5.jpg" alt="">
                     <span>Плитный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_5" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_6.jpg" alt="">
                     <span>Ростверковый</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_6" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_7.jpg" alt="">
                     <span>Монолитный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_7" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/kind_8.jpg" alt="">
                     <span>Цокольный</span>
                 </div>
-                <a href="#" class="more_btn">Подробное описание</a>
-                <a href="#" class="a_btn">Рассчитать</a>
+                <a href="#callback_type_8" class="more_btn">Подробное описание</a>
+                <a href="#callback" class="a_btn">Рассчитать</a>
             </div>
         </div>
     </div>
@@ -178,8 +178,8 @@
             <h2>Не знаете какой тип фундамента Вам нужен?</h2>
             <span>Оставьте заявку и получите бесплатную консультацию нашего инженера-эксперта:</span>
             <form action="">
-                <input type="text" placeholder="Ваше Имя">
-                <input type="tel" placeholder="Ваш телефон">
+                <input  required="" type="text" placeholder="Ваше Имя">
+                <input  required="" type="tel" placeholder="Ваш телефон">
                 <input type="submit" value="Заказать осмотр">
             </form>
         </div>
@@ -187,11 +187,11 @@
     <div class="calc">
         <div  id="w"  class="contain foo">
             <h2>Рассчитайте точную стоимость Вашего фундамента</h2>
-            <form class="calc_form">
+            <form class="calc_form" method="post" name="modal-box" action="src/mail/send-calc-mail.php">
                 <div class="main_box">
                     <div class="left_box">
                         <label for="type">Тип здания:</label>
-                        <select name="type" id="type">
+                        <select required="" name="type" id="type">
                             <option value="Частный дом">Частный дом</option>
                             <option value="Коттедж">Коттедж</option>
                             <option value="Коммерческий объект">Коммерческий объект</option>
@@ -202,7 +202,7 @@
                             <option value="Баня">Баня</option>
                         </select>
                         <label for="vid">Вид фундамента:</label>
-                        <select name="vid" id="vid">
+                        <select required="" name="vid" id="vid">
                             <option value="Ленточный">Ленточный</option>
                             <option value="Свайный">Свайный</option>
                             <option value="Столбчатый">Столбчатый</option>
@@ -213,7 +213,7 @@
                             <option value="Цокольный">Цокольный</option>
                         </select>
                         <label for="my_select">Марка бетона:</label>
-                        <select name="mark" id="my_select">
+                        <select required="" name="mark" id="my_select">
                             <option value="Основное применение: подготовка к бетонированию фундамента,
                             обустройство стяжки пола, постройка сооружений, которые не переносят
                             большие нагрузки, заборы, столбы.">М150</option>
@@ -270,16 +270,16 @@
                             <img src="img/scheme1.jpg" name="u_img" alt="">
                         </div>
                         <div class="labels">
-                            <label for="width">Ширина (см):<input type="text" id="width" placeholder="A"></label>
-                            <label for="length">Длина (см):<input type="text" id="length"placeholder="B"></label>
-                            <label for="height">Высота (см):<input type="text" id="height"placeholder="C"></label>
-                            <label for="thickness">Толщина (см):<input type="text" id="thickness"placeholder="D"></label>
+                            <label for="width">Ширина (см):<input required="" type="text" id="width" placeholder="A"></label>
+                            <label for="length">Длина (см):<input required="" type="text" id="length"placeholder="B"></label>
+                            <label for="height">Высота (см):<input required="" type="text" id="height"placeholder="C"></label>
+                            <label for="thickness">Толщина (см):<input required="" type="text" id="thickness"placeholder="D"></label>
                         </div>
                     </div>
                 </div>
                 <div class="req_box">
-                    <input type="text" placeholder="Ваше Имя">
-                    <input type="tel" placeholder="Ваш телефон">
+                    <input required="" type="text" placeholder="Ваше Имя">
+                    <input required="" type="tel" placeholder="Ваш телефон">
                     <input type="submit" value="Рассчитать">
                 </div>
             </form>
@@ -294,64 +294,56 @@
                                 <img src="img/build_1.jpg" alt="">
                                 <span>Частные дома</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_1" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_2.jpg" alt="">
                                 <span>Коттеджи</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_2" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_3.jpg" alt="">
                                 <span>Коммерческие объекты</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_3" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_4.jpg" alt="">
                                 <span>Гаражи</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_4" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_5.jpg" alt="">
                                 <span>Склады и ангары</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_5" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_6.jpg" alt="">
                                 <span>ЛЭП</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_6" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_7.jpg" alt="">
                                 <span>Заборы</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_7" class="more_btn">Подробнее</a>
                         </div>
                         <div class="foundation_box">
                             <div class="foundation_img">
                                 <img src="img/build_8.jpg" alt="">
                                 <span>Бани</span>
                             </div>
-                            <a href="#" class="more_btn">Подробное описание</a>
-                            <a href="#" class="a_btn">Рассчитать</a>
+                            <a href="#callback_for_8" class="more_btn">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -451,9 +443,9 @@
         <div class="contain request">
             <h2>Хотите также?</h2>
             <span>Оставьте свои контактные данные ниже и получите бесплатную консультацию инженера с выездом на объект:</span>
-            <form action="">
-                <input type="text" placeholder="Ваше Имя">
-                <input type="tel" placeholder="Ваш телефон">
+            <form method="post" name="modal-box" action="src/mail/send-mail.php">
+                <input required="" type="text" placeholder="Ваше Имя">
+                <input required="" type="tel" placeholder="Ваш телефон">
                 <input type="submit" value="Оставить заявку">
             </form>
         </div>
@@ -467,42 +459,42 @@
                     <img src="img/montazh_1.jpg" alt="">
                     <span>Стяжка пола</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/montazh_2.jpg" alt="">
                     <span>Монолитная лестница</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/montazh_3.jpg" alt="">
                     <span>Монолитная лестница</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/montazh_4.jpg" alt="">
                     <span>Перекрытия</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/montazh_5.jpg" alt="">
                     <span>Кладка блоков</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
             <div class="foundation_box">
                 <div class="foundation_img">
                     <img src="img/montazh_6.jpg" alt="">
                     <span>Кладка блоков</span>
                 </div>
-                <a href="#" class="a_btn">Получить консультацию</a>
+                <a href="#callback" class="a_btn">Получить консультацию</a>
             </div>
         </div>
     </div>
@@ -586,9 +578,9 @@
         <div class="contain request">
             <h2>Оставьте свои данные ниже и мы вышлем Вам 10 способов облицовки Вашего будущего фундамента.</h2>
             <span>Оставьте свои контактные данные ниже и получите бесплатную консультацию инженера с выездом на объект:</span>
-            <form action="">
-                <input type="text" placeholder="Ваше Имя">
-                <input type="tel" placeholder="Ваш телефон">
+            <form method="post" name="modal-box" action="src/mail/send-mail.php">
+                <input required="" type="text" placeholder="Ваше Имя">
+                <input required="" type="tel" placeholder="Ваш телефон">
                 <input type="submit" value="Оставить заявку">
             </form>
         </div>
@@ -727,14 +719,15 @@
         <div class="contain request">
             <h2>Не нашли ответ на свой вопрос?</h2>
             <span>Оставьте свои контактные данные ниже и с Вами свяжется наш специалист.</span>
-            <form action="">
-                <input type="text" placeholder="Ваше Имя">
-                <input type="tel" placeholder="Ваш телефон">
-                <input type="submit" value="Оставить заявку">
+            <form method="post" name="modal-box" action="src/mail/send-mail.php">
+                <input required="" type="text" placeholder="Ваше Имя">
+                <input required="" type="tel" placeholder="Ваш телефон">
+                <input required="" type="submit" value="Оставить заявку">
             </form>
         </div>
     </div>
-
+</main>
+<footer>
     <div class="footer">
         <div class="contain_foot">
             <div class="logo_foot">
@@ -746,17 +739,689 @@
             <div class="tel_foot">
                 <span class="top_tel">+375 29 383-16-53</span>
                 <span class="top_tel">+375 33 603-74-53</span>
-                <span class="top_callback"><a href="#">Заказать звонок</a></span>
+                <span class="top_callback"><a href="#callback">Заказать звонок</a></span>
             </div>
         </div>
     </div>
-
-
-
-
-</main>
-<footer>
 </footer>
+
+<div id="callback" class="modalDialog">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Отправить заявку</h2>
+            <form id="make_order" method="post" name="modal-box" action="src/mail/send-mail.php">
+                <input type="hidden" id="request" name="main_request" value="Основная заявка">
+                <span class="inp-req">
+                        <input id="rqname" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                <span class="inp-req">
+                        <input id="rqmail" name="mail" type="email" required="" placeholder="Адресс эл. почты" autocomplete="off" class="suggestions-input">
+                    </span>
+                <span class="inp-req">
+                        <input id="rqtel" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+            </form>
+            <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="endthx" class="modalDialog">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <div id="result">
+                <h2 class="call-modal-h2">Ваша заявка принята, спасибо за обращение</h2>
+                <a href="#close">
+                    <span class="inp-req">
+                        <input type="submit" class="btn" value="Закрыть">
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_1" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Ленточный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_1.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Ленточный фундамент используется при возведении масштабных конструкций, таких как дома из блоков, монолитные и кирпичные дома, шале при совмещении разных материалов. Основание фундамента опускают ниже глубины промерзания в зависимости от района. Среднее значение колеблется до 1400 до 1700 мм. На влажной почве такой тип фундамента использовать запрещено.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Самый распространённый вид</li>
+                                <li>Идеальное сочетание цены и способности выдерживать нагрузку</li>
+                                <li>Можно использовать для строительства подвала</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Для плывунов и заболоченных участков лучше использовать другой вид фундамента</li>
+                                <li>Не используется при многоэтажном строительстве, а также возведении кирпичных домов</li>
+                                <li>Дренаж и отмостка – необходимые условия для использования этого вида фундамента</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert1" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt1" name="main_request" value="Ленточный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet1" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt1" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_2" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Свайный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_2.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Уже на протяжении многих лет свайный фундамент используется в частном строительстве. Его основной плюс- это возможность возводить фундамент даже на слабом грунте. Для его изготовления используются разные материалы, однако самым прочным и долговечные остается бетон.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Самый дешевый вид фундамента</li>
+                                <li>Быстрая установка по сравнению с другими видами</li>
+                                <li>Подойдет для строительства бань, дачных домов, беседок, пристроек</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Не подходит для каменистого грунта, заболоченных участков и плывунов</li>
+                                <li>Не используется для кирпичного, а также многоэтажного строительства</li>
+                                <li>В таких сооружениям пол всегда холодный</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert2" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt2" name="main_request" value="Свайный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet2" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt2" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_3" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Столбчатый фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_3.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Данный тип фундамента подразумевает, что опорные столбы находятся в земле. Глубина столбов под землей определяется экспериментально. Вершины столбов возвышаются над землей и связываются между собой ростверком или бетонной лентой. Благодаря этому нагрузка на грунт распределяется равномерно.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Быстрое возведение</li>
+                                <li>Довольно экономичный тип фундамента</li>
+                                <li>Не нужно привлекать дополнительную спецтехнику и людей</li>
+                                <li>Возводится на нестабильной грунте и земле с высокой глубиной промерзания</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Не подходит для обустройства цокольных этажей и подвалов</li>
+                                <li>Нужно использовать надежный ростверк, поскольку конструкция склонна к горизонтальному передвижению</li>
+                                <li>Нельзя использовать для возведения тяжелых конструкций</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert3" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt3" name="main_request" value="Столбчатый фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet3" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt3" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_4" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Сборный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_4.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Является подвидом ленточного фундамента. Отличие в том, что он собирается из фундаментных железобетонных блоков, а не заливается бетоном. Используется для строительства массивных многоэтажных строений, заводов, тяжелых конструкций. Также его используют и в индивидуальном строительстве.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Быстрый срок возведения. Основание из блоков можно выложить за 1 -2 дня. В отличие от монолитного, ему не нужно набирать прочность, а можно сразу начинать возводить стены</li>
+                                <li>Монтаж довольно прост. Не нужно создавать арматурный каркас и строить опалубку</li>
+                                <li>Фундамент из ФБС стоит дешевле других видов</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Неустойчив к неоднородным и подвижным грунтам</li>
+                                <li>Стоимость данного фундамента составляет от 25 до 45 % общих трат на строительство</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert4" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt4" name="main_request" value="Сборный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet4" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt4" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_5" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Плитный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_5.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Используется на заболоченных, подвижных грунтах, а также грунтах малой плотности, где нужно максимальное распределение нагрузки на грунт. Оптимально использовать при строительстве домов из блоков, кирпичных и монолитных домов, каркасных домов и домов из бруса, срубов, домов из отцилиндрованного бревна, домов, возведённых по технологии SIP с использованием пенополистирольных панелей, которые облицованы ОСП.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Может выдерживать большую нагрузку</li>
+                                <li>Высокий срок эксплуатации строения</li>
+                                <li>Походит для всех типов грунта</li>
+                                <li>Можно использовать для строительства любого типа зданий</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Нет подвала</li>
+                                <li>Нельзя строить в зимнее время и холодную погоду</li>
+                                <li>Обязательно нужно использовать качественный бетон</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert5" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt5" name="main_request" value="Плитный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet5" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt5" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_6" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Ростверковый фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_6.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Примеряется при возведении капитальных объектов, таких как дома из блоков, монолитные и кирпичные дома, каркасные дома и дома из отцилиндрованного бревна, дома из бруса, срубы, дома по технологии SIP с использованием пенополистирольных панелей, облицованных ОСП</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Из всех вариантов самый дешевый</li>
+                                <li>Самая быстрая установка</li>
+                                <li>Подойдет для строительства беседки, бани, пристройки или дачного дома</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Не используется на заболоченных участках, каменистых грунтах и плывунах</li>
+                                <li>Не подходит для многоэтажного строительства и постройки кирпичных домов</li>
+                                <li>Холодный пол</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert6" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt6" name="main_request" value="Ростверковый фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet6" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt6" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_7" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Монолитный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_7.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Монолитная плита настолько прочна, что на ней строят даже небоскребы. Плита всегда выдерживает колоссальные нагрузки и отличается особой прочностью.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Способность выдерживать огромную нагрузку</li>
+                                <li>Большие сроки эксплуатации</li>
+                                <li>Походит для любого типа грунта, в том числе заболоченности и плывунов</li>
+                                <li>Можно строить любые типы зданий</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Нельзя обустроить подвал</li>
+                                <li>Строить можно только в теплое время года и погоду</li>
+                                <li>Обязательно нужно использовать качественный бетон</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert7" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt7" name="main_request" value="Монолитный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet7" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt7" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_type_8" class="modalDialog callback_found_type">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Цокольный фундамент</h2>
+            <div class="back_type_found">
+                <div class="back_type_found_box">
+                    <div class="back_type_found_img">
+                        <img src="img/kind_8.jpg" alt="">
+                    </div>
+                    <div class="back_type_found_txt">
+                        <p>Используется на всех типах грунта кроме торфяных и горючих. На его основе строят дома из блока, кирпичные и монолитные дома, шале с комбинированными материалами.</p>
+                        <div class="back_type_found_plus">
+                            <ul><b>Преимущества</b>
+                                <li>Если вам нужен подвал, этот вид фундамента позволяет его обустроить</li>
+                                <li>Выдерживает большую нагрузку в отличие от мелкозаглубленной ленты</li>
+                                <li>Доступный способ для строительства цоколя</li>
+                            </ul>
+                        </div>
+                        <div class="back_type_found_minus">
+                            <ul><b>Недостатки</b>
+                                <li>Не подходит для плывунов и заболоченных участков</li>
+                                <li>При многоэтажном строительстве нужно учесть многие факторы</li>
+                                <li>Может затопить подвал</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_type_found_form">
+                    <p><b>Хотите узнать сроки работы и получить бесплатную смету на ваш объект?</b><br/>
+                        Оставьте свои данные ниже:</p>
+                    <form id="make_ordert8" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="requestt8" name="main_request" value="Цокольный фундамент заявка">
+                        <span class="inp-req">
+                        <input id="rqnamet8" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtelt8" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback_for_1" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Частные дома</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_1.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order1" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request1" name="main_request" value="Частные дома заявка">
+                        <span class="inp-req">
+                        <input id="rqname1" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel1" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="callback_for_2" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Коттеджи</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_2.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order2" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request2" name="main_request" value="Коттеджи заявка">
+                        <span class="inp-req">
+                        <input id="rqname2" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel2" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_3" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Коммерческие объекты</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_3.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order3" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request3" name="main_request" value="Коммерческие объекты заявка">
+                        <span class="inp-req">
+                        <input id="rqname3" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel3" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_4" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Гаражи</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_4.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order4" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request4" name="main_request" value="Гаражи заявка">
+                        <span class="inp-req">
+                        <input id="rqname4" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel4" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_5" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Склады и ангары</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_5.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order5" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request5" name="main_request" value="Склады и ангары заявка">
+                        <span class="inp-req">
+                        <input id="rqname5" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel5" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_6" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">ЛЭП</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_6.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order6" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request6" name="main_request" value="ЛЭП заявка">
+                        <span class="inp-req">
+                        <input id="rqname6" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel6" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_7" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Заборы</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_7.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order7" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request7" name="main_request" value="Заборы заявка">
+                        <span class="inp-req">
+                        <input id="rqname7" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel7" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="callback_for_8" class="modalDialog callback_foundation">
+    <div class="callbody">
+        <div class="backcall">
+            <a href="#close" title="Закрыть" class="close"></a>
+            <h2 class="call-modal-h2">Бани</h2>
+            <div class="back_for_found">
+                <div class="back_for_found_img">
+                    <img src="img/build_8.jpg" alt="">
+                </div>
+                <div class="back_for_found_form">
+                    <p>Закажите консультацию специалиста, который поможет выбрать необходимый вид фундамента, в зависимости от типа вашей постройки</p>
+                    <form id="make_order8" method="post" name="modal-box" action="src/mail/send-mail.php">
+                        <input type="hidden" id="request8" name="main_request" value="Бани заявка">
+                        <span class="inp-req">
+                        <input id="rqname8" name="name" type="text" required="" placeholder="Ваше имя" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input id="rqtel8" name="tel" type="tel" required="" placeholder="Номер телефона" autocomplete="off" class="suggestions-input">
+                    </span>
+                        <span class="inp-req">
+                        <input type="submit" class="btn" value="Оставить заявку">
+                    </span>
+                    </form>
+                    <p>Нажимая на кнопку "Оставить заявку", я даю согласие на обработку моих персональных данных, согласно <a href="#">политике конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="src/owlcarousel/jquery.min.js"></script>
 <script src="src/owlcarousel/owl.carousel.js"></script>
@@ -767,9 +1432,11 @@
             items: 1,
             loop: true,
             margin: 10,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 3000,
-            autoplayHoverPause: false
+            autoplayHoverPause: true,
+            nav:true,
+            navText : ["",""],
         });
     })
 </script>
@@ -780,9 +1447,9 @@
             items: 3,
             loop: true,
             margin: 10,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 3000,
-            autoplayHoverPause: false
+            autoplayHoverPause: true
         });
     })
 </script>

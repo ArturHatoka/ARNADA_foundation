@@ -1,3 +1,8 @@
+@media screen and (max-width: 1279px){
+    .owl-nav{
+        display: none;
+    }
+}
 @media screen and (max-width: 1170px){
     html{
         font-size: 9px;
@@ -9,6 +14,7 @@
         justify-content: space-around;
     }
 }
+
 @media screen and (max-width: 1070px){
     .menu li a {
         font-size: 1.5rem;
@@ -55,6 +61,39 @@
     .why_box{
         width: 30%;
         margin: 1%;
+    }
+    .owl-nav{
+        display: block;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .back_for_found{
+        flex-direction: column;
+        align-items: center;
+    }
+    .back_type_found_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .back_type_found_img{
+        width: 55%;
+    }
+    .back_type_found_txt{
+        width: 90%;
+    }
+    .modalDialog.callback_foundation > div{
+        margin: 5vh auto;
+    }
+    .back_type_found_txt ul{
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+    .backcall p{
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width: 425px){
@@ -152,5 +191,13 @@
     }
     .people{
         display: none;
+    }
+    .modalDialog.callback_found_type > div, .modalDialog.callback_foundation > div{
+        width: 93%;
+        min-width: 320px;
+        margin-top: 2vh;
+    }
+    .modalDialog.callback_found_type form{
+        flex-direction: column;
     }
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324892c1-f165-46f1-a57f-afeb3e64e79c" name="Default Changelist" comment="" />
+    <list default="true" id="324892c1-f165-46f1-a57f-afeb3e64e79c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="653" column="22" lean-forward="true" selection-start-line="653" selection-start-column="22" selection-end-line="653" selection-end-column="22" />
+            <state relative-caret-position="536">
+              <caret line="1171" column="89" selection-start-line="1171" selection-start-column="89" selection-end-line="1171" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -22,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="178">
+              <caret line="1189" column="1" lean-forward="true" selection-start-line="1189" selection-start-column="1" selection-end-line="1194" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -31,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/sup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="739">
+              <caret line="196" column="25" lean-forward="true" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -43,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,9 +67,24 @@
       <find>input:</find>
       <find>form-control</find>
       <find>form_inpt</find>
+      <find>a href=&quot;#&quot; class=&quot;a_btn&quot;</find>
+      <find>input</find>
+      <find>id=&quot;req</find>
+      <find>callback_foundation</find>
     </findStrings>
     <replaceStrings>
       <replace>span</replace>
+      <replace>a href=&quot;#callback&quot; class=&quot;a_btn&quot;</replace>
+      <replace>&lt;a href=&quot;#&quot; class=&quot;more_btn&quot;&gt;Подробнee&lt;/a&gt;</replace>
+      <replace>callback_type_1</replace>
+      <replace>callback_type_2</replace>
+      <replace>callback_type_3</replace>
+      <replace>callback_type_4</replace>
+      <replace>callback_type_5</replace>
+      <replace>callback_type_6</replace>
+      <replace>callback_type_7</replace>
+      <replace>callback_type_8</replace>
+      <replace>callback_found_type</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -74,6 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/ModalWindowEffects/index.html" />
         <option value="$PROJECT_DIR$/../222/222/index.html" />
+        <option value="$PROJECT_DIR$/src/fotoRama/fotorama.css" />
+        <option value="$PROJECT_DIR$/src/fotoRama/fotorama.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/sup.css" />
@@ -107,6 +130,11 @@
               <item name="ARNADA_foundation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ARNADA_foundation" type="462c0819:PsiDirectoryNode" />
               <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARNADA_foundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ARNADA_foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,6 +179,7 @@
       <workItem from="1555482773563" duration="6491000" />
       <workItem from="1555492307226" duration="2059000" />
       <workItem from="1555502698324" duration="6806000" />
+      <workItem from="1555660986004" duration="12741000" />
     </task>
     <task id="LOCAL-00001" summary="221">
       <created>1555509185348</created>
@@ -163,12 +192,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36773000" />
+    <option name="totallyTimeSpent" value="49514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,6 +247,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="221" />
@@ -235,24 +279,55 @@
     <entry file="file://$PROJECT_DIR$/font/ubuntu.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15085" selection-start-line="3" selection-start-column="15085" selection-end-line="3" selection-end-column="15085" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6530" selection-start-line="4" selection-start-column="6530" selection-end-line="4" selection-end-column="6530" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GOSTAS_potolok/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="571" column="10" lean-forward="true" selection-start-line="571" selection-start-column="10" selection-end-line="571" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GOSTAS_potolok/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="1097" column="1" lean-forward="true" selection-start-line="1044" selection-start-column="1" selection-end-line="1097" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="653" column="22" lean-forward="true" selection-start-line="653" selection-start-column="22" selection-end-line="653" selection-end-column="22" />
+        <state relative-caret-position="536">
+          <caret line="1171" column="89" selection-start-line="1171" selection-start-column="89" selection-end-line="1171" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="178">
+          <caret line="1189" column="1" lean-forward="true" selection-start-line="1189" selection-start-column="1" selection-end-line="1194" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="739">
+          <caret line="196" column="25" lean-forward="true" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
         </state>
       </provider>
     </entry>

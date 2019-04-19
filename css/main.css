@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
     flex-direction: column;
 }
-form,input,select{
+form,input,select,button{
     outline: none;
 }
 header,main,footer,section{
@@ -82,10 +82,12 @@ input{
 .calc_href{
     color: #fff;
     text-decoration: none;
+    transition: 0.4s;
 }
 .calc_href:hover{
     text-decoration: underline;
     background-color: #5ec57e;
+    transition: 0.4s;
 }
 .tel_head{
     position: relative;
@@ -105,9 +107,11 @@ input{
 .top_callback a{
     color: #5ec57e;
     text-decoration: underline;
+    transition: 0.4s;
 }
 .top_callback a:hover{
     text-decoration: none;
+    transition: 0.4s;
 }
 .nav_head{
     position: relative;
@@ -234,6 +238,7 @@ nav{
     flex-direction: column;
     padding-bottom: 3rem;
     width: 100%;
+    height: 90px;
 }
 .main_request .form_inpt{
     padding: 1rem;
@@ -258,7 +263,6 @@ nav{
 .btn:hover{
     cursor: pointer;
     font-size: 1.6rem;
-    padding: 1.35rem;
 }
 .btn:active{
     background: red;
@@ -309,6 +313,9 @@ nav{
     color: #fff;
     text-shadow: 1px 1px 5px black;
     text-align: center;
+}
+.foundation_for .more_btn{
+    margin: 1rem auto;
 }
 .more_btn{
     font-size: 1.6rem;
@@ -1029,4 +1036,214 @@ span.lupa{
     font-size: 1.6rem;
     padding: 1.35rem 2rem;
     cursor: pointer;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -30px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 25px solid #5ec57e;
+    border-bottom: 30px solid transparent;
+    left: -50px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 25px solid #5ec57e;
+    border-bottom: 30px solid transparent;
+    right: -50px;
+}
+.owl-carousel .owl-nav button:active{
+    border-left-color: red;
+    border-right-color: red;
+}
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 110;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+    width: 100%;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+.modalDialog > div {
+    width: 30%;
+    min-width: 540px;
+    position: relative;
+    margin: 20vh auto;
+    border-radius: 10px;
+    background: white;
+    color: black;
+}
+.close {
+    background: white;
+    color: #000000;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px 1px #000;
+    -webkit-box-shadow: 1px 1px 3px 1px #000;
+    box-shadow: 1px 1px 3px 1px #000;
+}
+
+.close:hover {
+    background: #5ec57e;
+    color: #000;
+}
+.close:before{
+    content: '';
+    position: absolute;
+    top: 11px;
+    width: 18px;
+    height: 3px;
+    background-color: black;
+    left: 3px;
+    transform: rotate(50grad);
+}
+.close:after{
+    content: '';
+    position: absolute;
+    top: 11px;
+    width: 18px;
+    height: 3px;
+    background-color: black;
+    left: 3px;
+    transform: rotate(-50grad);
+}
+.backcall{
+    position: relative;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.backcall .call-modal-h2{
+    position: relative;
+    text-align: center;
+}
+.modalDialog form, .modalDialog form input [type="hidden"]{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modalDialog .inp-req{
+    position: relative;
+    width: 80%;
+    padding: 2%;
+}
+.modalDialog input{
+    position: relative;
+    width: 90%;
+    font-size: 14px;
+    padding: 5%;
+    border: 3px solid #5ec57e;
+}
+.modalDialog .inp-req .btn{
+    width: 100% !important;
+    font-weight: 600;
+    height: 60px;
+}
+.modalDialog .inp-req .btn:hover{
+    cursor: pointer;
+}
+.modalDialog .inp-req .btn:active{
+    background-color: red;
+}
+#result .btn{
+    width: 96% !important;
+    padding: 3%;
+}
+.backcall p{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.back_for_found{
+    position: relative;
+    display: flex;
+}
+.modalDialog.callback_foundation > div{
+    width: 45%;
+}
+.back_for_found_img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalDialog.callback_found_type > div{
+    width: 70%;
+    margin: 5vh auto;
+}
+.back_type_found{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.back_type_found_txt{
+    width: 65%;
+}
+.back_type_found_img{
+    width: 34%;
+}
+.back_type_found_img img{
+    width: 100%;
+}
+.back_type_found_box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.modalDialog.callback_found_type form{
+    flex-direction: row;
+}
+.modalDialog.callback_found_type input{
+    height: 30px;
+    padding: 12px;
+}
+.back_type_found_plus{
+    list-style: url("../img/ic-posit.png");
+}
+.back_type_found_minus{
+    list-style: url("../img/ic-negat.png");
+}
+.back_type_found_txt ul{
+    font-size: 1.5rem;
+    line-height: 1.9rem;
 }

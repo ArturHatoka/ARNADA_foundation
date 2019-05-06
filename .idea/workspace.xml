@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324892c1-f165-46f1-a57f-afeb3e64e79c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="324892c1-f165-46f1-a57f-afeb3e64e79c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,20 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="1171" column="89" selection-start-line="1171" selection-start-column="89" selection-end-line="1171" selection-end-column="89" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="359" column="27" selection-start-line="359" selection-start-column="27" selection-end-line="359" selection-end-column="27" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -33,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="3298">
               <caret line="194" column="82" selection-start-line="194" selection-start-column="82" selection-end-line="194" selection-end-column="82" />
             </state>
           </provider>
@@ -177,6 +175,7 @@
       <workItem from="1555492307226" duration="2059000" />
       <workItem from="1555502698324" duration="6806000" />
       <workItem from="1555660986004" duration="14104000" />
+      <workItem from="1555931743675" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="221">
       <created>1555509185348</created>
@@ -189,13 +188,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50877000" />
+    <option name="totallyTimeSpent" value="52007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,23 +275,8 @@
     <entry file="file://$PROJECT_DIR$/font/ubuntu.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15085" selection-start-line="3" selection-start-column="15085" selection-end-line="3" selection-end-column="15085" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6530" selection-start-line="4" selection-start-column="6530" selection-end-line="4" selection-end-column="6530" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.css" />
+    <entry file="file://$PROJECT_DIR$/src/fotoRama/fotorama.js" />
     <entry file="file://$PROJECT_DIR$/../GOSTAS_potolok/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -307,24 +291,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="1171" column="89" selection-start-line="1171" selection-start-column="89" selection-end-line="1171" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/sup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="3298">
           <caret line="194" column="82" selection-start-line="194" selection-start-column="82" selection-end-line="194" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="359" column="27" selection-start-line="359" selection-start-column="27" selection-end-line="359" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>

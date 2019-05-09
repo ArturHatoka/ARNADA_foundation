@@ -50,6 +50,7 @@ input{
     align-items: center;
     justify-content: center;
     height: 100%;
+    height: -moz-min-content;
 }
 .main_header .contain{
     margin: 2rem auto 1rem;
@@ -684,6 +685,7 @@ span.lupa{
     align-items: center;
     height: 100%;
     margin: 1.5rem auto;
+    height: max-content;
 }
 .steps_box img{
     width: 100%;
@@ -717,11 +719,13 @@ span.lupa{
     content: url("../img/arrow.png");
     margin-left: 68.5%;
     position: absolute;
+    left: 125px;
 }
 .stage-2:nth-of-type(4):after{
     content: url("../img/arrow.png");
     margin-left: 72.5%;
     position: absolute;
+    left: 180px;
 }
 .certificates_box{
     position: relative;
@@ -862,6 +866,7 @@ span.lupa{
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    height: -moz-min-content;
 }
 .logo_foot{
     position: relative;
